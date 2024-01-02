@@ -25,8 +25,6 @@ $currentTime = time();
 $select = "SELECT `time`, `water-level`  FROM `waterstatus` ORDER BY `time` LIMIT 10";
 $query = mysqli_query($connection, $select);
 
-
-
 ?>
 
 
@@ -222,6 +220,9 @@ $query = mysqli_query($connection, $select);
                           }elseif ($waterlevel == 'sensor_4') {
                             $color = 'red';
                             $status = 'level 3';
+                          }else{
+                            $color = 'gray';
+                            $status = 'level 0';
                           }
                     
                           echo '<td style="background-color: ' . $color . '; color: black; font-weight: bold; text-align: center;">' . $status . '</td>';

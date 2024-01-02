@@ -153,7 +153,7 @@ $query = mysqli_query($connection, $select);
 
                     <div class="evacuation-info">
                         <div class="evacuation-location">
-                            <p><a href="#">Sevilla Brgy. Hall</a></p>
+                            <p><a href="https://www.google.com/maps/place/Sevilla+Barangay+Hall/@16.5969584,120.3212013,18.25z/data=!4m14!1m7!3m6!1s0x33918fb382ee6439:0xf928600e620e9d2b!2sSevilla+Barangay+Hall!8m2!3d16.5958939!4d120.3209711!16s%2Fg%2F11h8dw970t!3m5!1s0x33918fb382ee6439:0xf928600e620e9d2b!8m2!3d16.5958939!4d120.3209711!16s%2Fg%2F11h8dw970t?entry=ttu">Sevilla Brgy. Hall</a></p>
                             <p><a href="#">Madayegdeg Brgy. Hall</a></p>
                         </div>
                     </div>
